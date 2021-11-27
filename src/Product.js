@@ -12,7 +12,7 @@ function Product({id,title,price,image }) {
                 <strong>{price}</strong>
                 </p>
                 
-                <img className="product--image" src={image} alt="" /> 
+                <img className="product--image" src={image}  alt="" /> 
             </div>
              <button className="product--button">Add to Cart</button>  
             
