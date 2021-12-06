@@ -4,8 +4,10 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {Link} from'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 function Header() {
+  const[{cart},dispatch] = useStateValue();
     return (
         <div className="header">
           <Link to ="/">
@@ -69,7 +71,7 @@ function Header() {
           <div 
           className="header--optionBasket">  
           <ShoppingCartIcon />
-          <span className="header--optionLineTwo header--basketcount">0</span> 
+          <span className="header--optionLineTwo header--basketcount">{cart.length}</span> 
             </div>
             </Link>
             </div>
