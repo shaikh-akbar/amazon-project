@@ -24,7 +24,7 @@ function Home() {
             <Product 
                id="03"
                title="Apple iPhone 13 Mini (256GB) - Blue"
-               price={"10 patti"}
+               price={95000}
                image="https://m.media-amazon.com/images/I/71X6mnUDSzL._SL1500_.jpg"
             />
             </div>
