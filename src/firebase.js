@@ -1,8 +1,8 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBhOJ96l1YU1eaL3DDVhp8ahYRlbtsB8lY",
-    authDomain: "clone-9e5ff.firebaseapp.com",
-    projectId: "clone-9e5ff",
-    storageBucket: "clone-9e5ff.appspot.com",
-    messagingSenderId: "748466590838",
-    appId: "1:748466590838:web:fe31efdfd21e9854f1bb57"
-  };
+  apiKey: "AIzaSyCsGewgNIxoicZ8QQXZNE1lFNjyv5B-W3k",
+  authDomain: "project-9a048.firebaseapp.com",
+  projectId: "project-9a048",
+  storageBucket: "project-9a048.appspot.com",
+  messagingSenderId: "569220788803",
+  appId: "1:569220788803:web:22bae63407a42ff93b9af6"
+};
