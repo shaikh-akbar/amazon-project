@@ -27,6 +27,12 @@ function Home() {
                price={95000}
                image="https://m.media-amazon.com/images/I/71X6mnUDSzL._SL1500_.jpg"
             />
+             <Product 
+               id="02"
+               title="Noise ColorFit Pro 2 Full Touch Control Smart Watch"
+               price={2799}
+               image="https://m.media-amazon.com/images/I/61xzuXWWozS._SL1200_.jpg"
+            />
             </div>
             <div className="home--row">
             <Product 
@@ -41,6 +47,12 @@ function Home() {
                price={36000}
                image="https://m.media-amazon.com/images/I/71CR8r2rrWL._SL1500_.jpg"
             />
+             <Product 
+               id="02"
+               title="Noise ColorFit Pro 2 Full Touch Control Smart Watch"
+               price={2799}
+               image="https://m.media-amazon.com/images/I/61xzuXWWozS._SL1200_.jpg"
+            />
             
             </div>
             <div className="home--row">
@@ -49,6 +61,12 @@ function Home() {
                title="Lloyd  8.0 Kg Semi Automatic Top Load Washing Machine"
                price={11489}
                image="https://m.media-amazon.com/images/I/41NWhVO8BLL._SL1024_.jpg"
+            />
+            <Product 
+               id="04"
+               title="Shining Diva Fashion Genuine Leather..."
+               price={2199}
+               image="https://m.media-amazon.com/images/I/514gLEGRFHL.jpg"
             />
             </div>
           </div>  
