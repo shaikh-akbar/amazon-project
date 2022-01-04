@@ -16,6 +16,12 @@ function Home() {
                image="https://images-na.ssl-images-amazon.com/images/I/41SMlI+1PrL._SX331_BO1,204,203,200_.jpg"
             />
             <Product 
+            id = "06"
+            title="womens wear"
+            price={3999}
+            image="https://rukminim1.flixcart.com/flap/150/150/image/d922807ba00a5cff.jpg?q=70"
+            />
+            <Product 
                id="02"
                title="Noise ColorFit Pro 2 Full Touch Control Smart Watch"
                price={2799}
@@ -40,6 +46,12 @@ function Home() {
                title="Shining Diva Fashion Genuine Leather..."
                price={2199}
                image="https://m.media-amazon.com/images/I/514gLEGRFHL.jpg"
+            />
+            <Product 
+            id="08"
+            title="Mens wear"
+            price ={2300}
+            image="https://rukminim1.flixcart.com/image/150/150/kflftzk0/jacket/p/c/w/m-hljk000342-highlander-original-imafwyypzzjecdaj.jpeg?q=70"
             />
             <Product 
                id="04"
@@ -67,6 +79,12 @@ function Home() {
                title="Shining Diva Fashion Genuine Leather..."
                price={2199}
                image="https://m.media-amazon.com/images/I/514gLEGRFHL.jpg"
+            />
+            <Product 
+               id="04"
+               title="Shining Diva Fashion Genuine Leather..."
+               price={2199}
+               image="https://rukminim1.flixcart.com/image/150/150/ksc46fk0/fabric/v/m/j/no-2-35-m-unstitched-shankar01-trijal-fab-original-imag5xd6gfptxtqp.jpeg?q=70"
             />
             </div>
           </div>  
