@@ -5,13 +5,22 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {Link} from'react-router-dom';
 import { useStateValue } from './StateProvider';
+import {auth} from "./firebase";
 
 function Header() {
   const[{cart,user},dispatch] = useStateValue();
+   
+  const handleAuthentication = () =>{
+    if(user){
+      auth.signOut();
+    }
+  }
+
+
     return (
         <div className="header">
           <Link to ="/">
-          <img className="header--logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon"/>
+          <img className="header--logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7TXO_g3fRLqv6PepNx76fVrsrTrcYMDv8g&usqp=CAU" alt="amazon"/>
           </Link>
           <div className="header--nav">
 <div className="location">
@@ -53,9 +62,9 @@ function Header() {
           </div>  
 
           <div className="header--nav">
-            <Link to = '/login'>
-            <div className="header--option">
-            <span className="header--optionLineOne">Hello Guest</span>
+            <Link to = {!user &&'/login'}>
+            <div onClick={handleAuthentication}className="header--option">
+            <span className="header--optionLineOne">Hello {!user?'Guest':user.email}</span>
             <span className="header--optionLineTwo">{user ?'Sign Out':'Sign In'}</span>
             </div>
             </Link>

@@ -24,8 +24,16 @@
 .header--logo{
     width: 100px;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 7px;
     object-fit: contain;
+    
+}
+.header--logo:hover{
+    color: #F3A847;
+    opacity: 1;
+    border-radius: 50%;
+    background-color: violet;
+    background: #333;
 }
 /* .header--locationinput{
     background-color: white;
@@ -78,3 +86,4 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
