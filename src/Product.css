@@ -37,3 +37,13 @@
     border-color: white;
     margin-top: 10px;
 }
+.product--button:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+@media screen and (max-width:720px) {
+    .product--image, .product--info {
+            object-fit: contain;
+            margin-bottom: 2px;
+        }
+    }

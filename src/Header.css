@@ -86,4 +86,42 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+@media screen and (max-width:720px ){
+    .header {
+        display:flex;
+        width:100%;
+        
+    }
+    .header .header--logo {
+        width: 46px;
+        margin: 4px 2px;
+        object-fit: contain;
+        margin-top: 18px;
+        padding-bottom: 12px;
+    }
+    .listItem{
+        width: 50%;    
+    }
+    .header--nav{
+        display:flex;
+        justify-content:space-evenly; 
+        width:50%; 
+    }
+    .header--option1{
+        font-size:7px;
+        font-weight:200;
+        
+    }
+    .header--option2{
+        font-size:8px;    
+    }
 
+}
+@media  screen and (max-width:371px) {
+    .header {
+        display:flex;
+        width:50%;
+        flex-wrap: nowrap;
+    }
+
+}

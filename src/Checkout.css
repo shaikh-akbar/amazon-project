@@ -19,3 +19,13 @@
 .Checkout--right{
     background-color: aquamarine ;
 }
+@media  screen and (max-width:720px) {
+    .checkout--right {
+        width: 50%;
+        height: 16vh;
+    }
+
+.checkout--left{
+    width:50%;
+}
+}

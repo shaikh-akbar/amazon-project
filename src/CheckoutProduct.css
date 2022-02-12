@@ -27,3 +27,29 @@
     font-size: 18px;
     font-weight: 700;
 }
+@media  screen and (max-width:720px) {
+    .Checkout--product {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+ }
+ .Checkout--title {
+    font-size: 8px;
+    font-weight: 500;
+}
+.Checkout--img {
+    object-fit: contain;
+    width: 100px;
+    height: 155px;
+}
+.Checkout--info button {
+    font-size: 9px;
+    background: #F7CA00;
+    border: 0px solid;
+    border-color: #9b8212;
+    margin-top: 5px;
+    border-radius: 1px;
+    color: black;
+    padding: 2px;
+}
+}
